@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build output
+dist/
+build/
+*.js
+*.js.map
+*.d.ts
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.dev
+.env.staging
+.env.prod
+!.env.example
+
+# LocalStack data
+localstack-data/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# AWS
+.aws-sam/
+
+# CDK
+infra/cdk.out/
+infra/.cdk.staging/
+cdk.context.json
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+*.tgz
